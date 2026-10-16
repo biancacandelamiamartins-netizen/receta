@@ -1,0 +1,13 @@
+body {background-image: url("../imagenes/gg.jpg");}
+
+h1 {color: red;}
+
+.verde {color: green;
+  background-color: yellow;
+  text-decoration: underline;}
+
+  .azul  {color: blue;
+    background-color: yellow;
+    text-decoration: underline;}
+
+ li {color: white;}
