@@ -1,0 +1,41 @@
+body {background-image: url("../imagenes/verde_oliva.avif");
+background-attachment: fixed; background-position: center;}
+
+header {display:flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+}
+
+.redes { width: 80px;
+        height: 80px;
+      }
+
+.logo {border-radius: 50%
+      width: 80px;
+      height: 80px;}
+
+footer { display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ubi {width: 500px;
+      height: 450px;}
+
+a {color: red;}
+
+h1 {color: #FA4D4D;  background-color: #FCF8ED}
+
+h3 {color: white;}
+
+.verde {color: green;
+  background-color: yellow;
+  text-decoration: underline;}
+
+  .azul  {color: blue;
+    background-color: yellow;
+    text-decoration: underline;}
+
+ li {color: white;}
