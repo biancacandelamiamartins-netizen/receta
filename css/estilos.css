@@ -1,4 +1,4 @@
-body {background-image: url("../imagenes/verde_oliva.avif");
+body {background-image: url("../imagenes/celeste.jpg");
 background-attachment: fixed; background-position: center;}
 
 header {display:flex;
@@ -11,9 +11,10 @@ header {display:flex;
         height: 80px;
       }
 
-.logo {border-radius: 50%
+.logo {border-radius: 50%;
       width: 80px;
-      height: 80px;}
+      height: 80px;
+    }
 
 footer { display: flex;
   justify-content: space-around;
@@ -24,18 +25,52 @@ footer { display: flex;
 .ubi {width: 500px;
       height: 450px;}
 
-a {color: red;}
+nav {background-color: #3495C9;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin-top: 50px;
+   }
 
-h1 {color: #FA4D4D;  background-color: #FCF8ED}
+   button:hover {background-color: grey;
+}
+
+a {color: black;
+  text-shadow:
+    0 0 10px #ffffff,
+    0 0 20px #ffffff,
+    0 0 30px #ffffff,
+    2px 4px 8px rgba(0, 0, 0, 0.2);
+
+letter-spacing: 2px;}
+
+h1 {color: #021703;  background-color: #3495C9
+}
 
 h3 {color: white;}
 
-.verde {color: green;
-  background-color: yellow;
+.verde {color: #021703;
+  background-color: #3495C9;
   text-decoration: underline;}
 
-  .azul  {color: blue;
-    background-color: yellow;
+  .azul  {color: #021703;
+    background-color: #3495C9;
     text-decoration: underline;}
 
- li {color: white;}
+ li {color: black;
+   }
+
+ .titulo-nube {
+            font-size: 70px;
+            font-weight: bold;
+            color: #ffffff;
+
+
+            text-shadow:
+                0 0 10px #ffffff,
+                0 0 20px #ffffff,
+                0 0 30px #ffffff,
+                2px 4px 8px rgba(0, 0, 0, 0.2);
+
+            letter-spacing: 2px;
+        }
